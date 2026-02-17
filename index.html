@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Imprintum</title>
+
+<style>
+:root {
+    --bg: #000000;
+    --text: #f2f2f2;
+    --muted: #888888;
+    --accent: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, monospace;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 720px;
+    padding: 120px 24px 80px 24px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: var(--muted);
+    margin-bottom: 48px;
+}
+
+.section {
+    margin-bottom: 48px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: var(--text);
+}
+
+li::before {
+    content: "— ";
+    color: var(--muted);
+}
+
+footer {
+    margin-top: 80px;
+    font-size: 14px;
+    color: var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Imprintum</h1>
+    <div class="tagline">Reliable Infrastructure. Minimal Complexity.</div>
+
+    <div class="section">
+        <p>
+            We build small, reliable infrastructure systems that solve real operational problems without unnecessary complexity.
+        </p>
+    </div>
+
+    <div class="section">
+        <ul>
+            <li>Reliability over cleverness</li>
+            <li>Minimal necessary infrastructure</li>
+            <li>Production is the only truth</li>
+            <li>Extract and reuse</li>
+        </ul>
+    </div>
+
+    <footer>
+        © 2026 Imprintum<br/>
+        Engineering Studio
+    </footer>
+
+</div>
+
+</body>
+</html>
